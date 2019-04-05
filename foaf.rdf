@@ -1,0 +1,33 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>亚琪 郭</foaf:name>
+<foaf:title>Miss</foaf:title>
+<foaf:givenname>亚琪</foaf:givenname>
+<foaf:family_name>郭</foaf:family_name>
+<foaf:nick>eneos</foaf:nick>
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" />
+<link rel="meta" type="application/rdf+xml" title="MUSICAL" href="foaf.rdf" />
+<foaf:mbox_sha1sum>9914820bc38aac178da6e924cdc906e44a4263ab</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://weibo.com/2301022001/profile?rightmod=1&wvr=6&mod=personinfo"/>
+<foaf:depiction rdf:resource="https://tvax3.sinaimg.cn/crop.0.0.479.479.180/8926cf31ly8g18efxf7jrj20db0db3zv.jpg"/>
+<foaf:phone rdf:resource="tel:13281259953"/>
+<foaf:schoolHomepage rdf:resource="http://www.scu.edu.cn/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>雷龙龙</foaf:name>
+<foaf:mbox_sha1sum>679b5a970b44d95ee1416ea646f2921df3f3d1c1</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>曾咖啡</foaf:name>
+<foaf:mbox_sha1sum>fcd9e6033aa1214af21e4174ba4da9040255d1c3</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
